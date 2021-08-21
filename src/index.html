@@ -13,11 +13,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   </head>
   <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <!-- <include src="./partials/example.html"></include> -->
     <header class="header">
       <form class="search-form" id="search-form">
         <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+        <button type="submit">find</button>
       </form>
     </header>
 
@@ -26,10 +25,9 @@
         <!-- Список <li> с карточками изображений -->
       </ul>
     </div>
-    
 
+    <button type="button" class="show-more">Show more</button>
 
-    
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
   </body>
